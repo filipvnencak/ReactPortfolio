@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Indie+Flower&family=Poppins&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html {
+  background: linear-gradient(to right, #28313b 0%, #485461 100%);
+
+  place-content: center;
+}
+h1 {
+  font-family: "Indie Flower", cursive;
+}
+* {
+  color: white;
+  font-family: "Indie Flower", cursive;
+}
+
+.skill {
+  background-color: lightslategray;
+  width: 8vh;
+  height: 8vh;
+  border-radius: 2vh;
+  margin-left: 1vh;
+  padding: 1vh;
+  transition: transform 250ms;
+  z-index: 10;
+  display: inline-block;
+  position: relative;
+}
+.skill:hover {
+  transform: translateY(-5vh);
+}
+.skill:active {
+  transform: translateY(-6vh);
+}
+.skill img {
+  width: 8vh;
+}
+.skills {
+  place-content: center;
+  display: flex;
+}
+.level {
+  font-size: 1.9vh;
+  z-index: -10;
+  position: relative;
+  transform: translateY(10vh);
+}
+
+@media only screen and (max-width: 500px) {
+  .scroll {
+    display: flex;
+    width: 45vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    white-space: nowrap;
+  }
+}
