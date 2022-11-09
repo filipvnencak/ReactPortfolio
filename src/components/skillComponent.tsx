@@ -1,12 +1,12 @@
 import "../styles.css";
 export default function Skill() {
   const imgsArray = [
-    { img: require("../imgs/React.png"), level: "Beginer" },
+    { img: require("../imgs/React.png"), level: "Intermediate" },
     { img: require("../imgs/html.png"), level: "Advanced" },
     { img: require("../imgs/css.png"), level: "Advanced" },
-    { img: require("../imgs/ionic.png"), level: "Beginer" },
+    { img: require("../imgs/ionic.png"), level: "Beginner" },
     { img: require("../imgs/Angular.png"), level: "Beginer" },
-    { img: require("../imgs/3D.png"), level: "Profesional" }
+    { img: require("../imgs/3D.png"), level: "Professional" }
   ];
   return (
     <div className="scroll">
