@@ -24,8 +24,8 @@ section {
 
 .skill {
   background-color: lightslategray;
-  width: 8vh;
-  height: 8vh;
+  width: 9vh;
+  height: 9vh;
   border-radius: 2vh;
   margin-left: 1vh;
   padding: 1vh;
@@ -41,7 +41,7 @@ section {
   transform: translateY(-6vh);
 }
 .skill img {
-  width: 8vh;
+  width: 9vh;
 }
 .skills {
   place-content: center;
@@ -51,7 +51,7 @@ section {
   font-size: 1.9vh;
   z-index: -10;
   position: relative;
-  transform: translateY(10vh);
+  transform: translateY(11vh);
 }
 .text {
   font-size: 3vh;
@@ -60,7 +60,7 @@ section {
 @media only screen and (max-width: 500px) {
   .scroll {
     display: flex;
-    width: 52vh;
+    width: 50vh;
     overflow-y: auto;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
