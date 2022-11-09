@@ -56,5 +56,10 @@ h1 {
     overflow-y: auto;
     overflow-x: hidden;
     white-space: nowrap;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .scroll::-webkit-scrollbar {
+    display: none;
   }
 }
