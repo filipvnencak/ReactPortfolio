@@ -1,24 +1,17 @@
 import "./styles.css";
 import Skill from "./components/skillComponent";
 import About from "./components/about";
+import Text from "./components/textAboutMe";
+import Jobs from "./components/jobs";
+import Projects from "./components/projects";
 export default function App() {
   return (
     <div className="App">
-      <section>
-        <About />
-      </section>
-      <section>
-        <Skill />
-      </section>
-      <section>
-        <p className="text">
-          I love simplicity. I like learning. My passion is jogging, climbing,
-          mountains and I like reading. <br />
-          <small>
-            P.S.: If you've read the book Surrounded by idiots, I'm yellow.
-          </small>
-        </p>
-      </section>
+      <About />
+      <Skill />
+      <Text />
+      <Jobs />
+      <Projects />
     </div>
   );
 }

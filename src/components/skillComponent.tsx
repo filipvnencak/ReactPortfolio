@@ -1,4 +1,3 @@
-import "../styles.css";
 export default function Skill() {
   const imgsArray = [
     { img: require("../imgs/React.png"), level: "Intermediate" },
@@ -9,7 +8,7 @@ export default function Skill() {
     { img: require("../imgs/3D.png"), level: "Professional" }
   ];
   return (
-    <div className="scroll">
+    <section className="scroll">
       <div className="skills">
         {imgsArray.map((image, index) => {
           return (
@@ -22,6 +21,6 @@ export default function Skill() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
